@@ -20,7 +20,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
-        .sararbun {
+        .sarabun {
             font-family: 'Sarabun', sans-serif;
         }
 
@@ -35,9 +35,24 @@
         .taviraj {
             font-family: 'Taviraj', sans-serif;
         }
+
+        #map {
+            height: 300px;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
+<!-- Modal -->
+<div class="modal fade" id="applyProject" tabindex="-1" role="dialog" aria-labelledby="applyProjectLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4eQE3hvWyq9Y3HJYgewS7GHzxDNaM6wpMot3_jAo8lBZGNQ/viewform?embedded=true" width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด...</iframe>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- SLIDER STARTS
     ========================================================================= -->
 <section id="slider">
@@ -79,7 +94,7 @@
                          data-paddingleft="[0,0,0,0]"
                          data-blendmode="screen"
                          style="z-index: 5;">
-                        <img id="rs-10-image" src="img/slider/technology/08.jpg" alt=""
+                        <img id="rs-10-image" src="img/slider/technology/01.jpg" alt=""
                              data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
                              data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
                              width="1920" height="1281" data-no-retina></div>
@@ -146,8 +161,8 @@
                         THE BEST SOLUTION FOR YOUR BUSINESS
                     </div>
                     <!-- LAYER NR. 4 -->
-                    <a class="tp-caption rev-btn  tp-resizeme js-scroll-trigger"
-                       href="#about"
+                    <a class="tp-caption rev-btn  tp-resizeme js-scroll-trigger kanit"
+                       href="#projects"
                        id="slide-10-layer-10"
                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                        data-y="['middle','middle','middle','middle']" data-voffset="['130','90','170','170']"
@@ -163,8 +178,9 @@
                        data-paddingright="[35,35,35,35]"
                        data-paddingbottom="[0,0,0,0]"
                        data-paddingleft="[35,35,35,35]"
-                       style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700; color: rgba(45,48,50,1);font-family:Poppins;background-color:rgba(250,254,144,1);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">TAKE
-                        A LOOK</a>
+                       style="z-index: 8; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700; color: rgba(45,48,50,1);font-family:Poppins;background-color:rgba(250,254,144,1);border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">
+                        Our Projects
+                    </a>
                 </li>
                 <!-- SLIDE  -->
                 <!--<li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0"-->
@@ -390,11 +406,12 @@
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#slider" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">HOME</a></li>
-                    <li><a href="#about" class="js-scroll-trigger" data-toggle="collapse"
-                           data-target=".navbar-collapse">ABOUT</a></li>
                     <li><a href="#projects" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">PROJECTS</a>
                     </li>
+                    <li><a href="#about" class="js-scroll-trigger" data-toggle="collapse"
+                           data-target=".navbar-collapse">ABOUT</a></li>
+
                     <li><a href="#services" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">SERVICES</a></li>
                     <li><a href="#contact" class="js-scroll-trigger" data-toggle="collapse"
@@ -407,44 +424,6 @@
     </div>
 </section>
 <!-- /.NAVIGATION -->
-<!-- ABOUT US STARTS
-    ========================================================================= -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading animated" data-animation="fadeInRight" data-animation-delay="0">
-                <h2>SOFTWARE / <span class="colored-text">RESEARCH</span> / DEVELOPMENT</h2>
-                <h1 class="kanit">เราคือผู้วิจัยและพัฒนาซอฟท์แวร์</h1>
-                <p class="line">&nbsp;</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-5">
-                <img src="img/content/972.svg" alt="About Me">
-            </div>
-            <div class="col-sm-7 sararbun" style="font-size: 1.4em; line-height: 1.5em;">
-                <dd style="text-indent: 2.5em;">เราคือบริษัทที่วิจัยและพัฒนาซอฟท์แวร์สำหรับธุรกิจ เว็บไซต์
-                    และแอปพลิเคชันบนโทรศัพท์มือถือ ให้กับองค์กรต่างๆ ทั้งหน่วยงานราชการและเอกชน เช่น ERP, TMS, WMS และ
-                    POS เป็นต้น
-                    เพื่อเพิ่มประสิทธิภาพการทำงานของท่านให้ประสบความสำเร็จและดียิ่งขึ้น
-                    รวมทั้งยังมีบริการบำรุงรักษาซอฟท์แวร์ต่างๆ วางโครงสร้างพื้นฐาน (Infrastructure) เช่น Server,
-                    Internet, Intranet และ Network System เป็นต้น
-                </dd>
-                <br>
-                <dd style="text-indent: 2.5em;">
-                    นอกจากนี้เรายังรับออกแบบกราฟฟิกดีไซน์ นำเสนอ Solution ทางธุรกิจ
-                    ปรับปรุงและพัฒนากระบวนการทำงานด้วยเทคโนโลยีต่าง ๆ เช่น Big Data, AI, Robotics, Embedded System และ
-                    IoT เป็นต้น
-                    เพื่อช่วยเหลือกระบวนการทำงานของภาคอุตสาหกรรมต่าง ๆ ให้มีความคล่องตัว ช่วยลดต้นทุน
-                    ช่วยลดระยะเวลาการทำงาน และพัฒนากระบวนการทำงานให้ดียิ่งขึ้น
-                </dd>
-            </div>
-        </div>
-
-        <div></div>
-    </div>
-</section>
-<!-- /.ABOUT -->
 <!-- ABOUT BLOCK 2 STARTS
     ========================================================================= -->
 <section id="projects">
@@ -459,19 +438,20 @@
         <div class="row">
             <!-- Carousel Starts -->
             <div class="col-md-6">
-                <div id="about-carousel" class="owl-carousel owl-theme animated" data-animation="fadeIn"
-                     data-animation-delay="100">
-                    <div class="item"><img src="http://placehold.it/600x380" class="img-responsive" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/600x380" class="img-responsive" alt=""></div>
-                    <div class="item"><img src="http://placehold.it/600x380" class="img-responsive" alt=""></div>
-                </div>
+                <!--<div id="about-carousel" class="owl-carousel owl-theme animated" data-animation="fadeIn"-->
+                     <!--data-animation-delay="100">-->
+                    <!--<div class="item"><img src="img/content/1075.svg" class="img-responsive" alt=""></div>-->
+                    <!--<div class="item"><img src="img/content/1075.svg" class="img-responsive" alt=""></div>-->
+                    <!--&lt;!&ndash;<div class="item"><img src="http://placehold.it/600x380" class="img-responsive" alt=""></div>&ndash;&gt;-->
+                <!--</div>-->
+                <img src="img/content/1075.svg" class="img-responsive" alt="">
             </div>
             <!-- /.Carousel -->
             <!-- Accordion Starts -->
             <div class="col-md-6">
                 <div class="panel-group" id="accordion">
                     <div class="panel animated" data-animation="fadeInUp" data-animation-delay="200">
-                        <div class="sararbun" style="font-size: 1.3em; line-height: 1.3em;">
+                        <div class="sarabun" style="font-size: 1.3em; line-height: 1.3em;">
                             <dd style="text-indent: 2.5em;">
                                 โครงการพัฒนาซอฟท์แวร์เพื่อช่วยเหลือกระบวนการทำงานของภาคอุตสาหกรรมการขนส่งให้มีความคล่องตัว
                                 ลดต้นทุน ลดระยะเวลาการขนส่ง และพัฒนากระบวนการทำงานให้ดียิ่งขึ้น
@@ -488,7 +468,15 @@
                             </dd>
                         </div>
                         <br>
-                        <button class="btn btn-info">APPLY NOW</button>
+                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#applyProject">APPLY NOW</button>
+                        <a href="https://lattesoft.sgp1.digitaloceanspaces.com/allone/proposal.pdf" target="_blank"
+                           class="btn btn-default btn-lg kanit">ดาวน์โหลดเอกสารโครงการ</a>
+                        <hr>
+                        <div class="sarabun">
+                            ผู้ประสานงานโครงการ: นายคมเพชร มีทรัพย์<br>
+                            โทรศัพท์: 08-0535-6935, 02-034-3423<br>
+                            Email: info@lattesoft.co.th<br>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -497,6 +485,44 @@
     </div>
 </section>
 <!-- /.ABOUT BLOCK 2 -->
+<!-- ABOUT US STARTS
+    ========================================================================= -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading animated" data-animation="fadeInRight" data-animation-delay="0">
+                <h2>SOFTWARE / <span class="colored-text">RESEARCH</span> / DEVELOPMENT</h2>
+                <h1 class="kanit">เราคือผู้วิจัยและพัฒนาซอฟท์แวร์</h1>
+                <p class="line">&nbsp;</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 sarabun" style="font-size: 1.4em; line-height: 1.5em;">
+                <dd style="text-indent: 2.5em;">เราคือบริษัทที่วิจัยและพัฒนาซอฟท์แวร์สำหรับธุรกิจ เว็บไซต์
+                    และแอปพลิเคชันบนโทรศัพท์มือถือ ให้กับองค์กรต่างๆ ทั้งหน่วยงานราชการและเอกชน เช่น ERP, TMS, WMS และ
+                    POS เป็นต้น
+                    เพื่อเพิ่มประสิทธิภาพการทำงานของท่านให้ประสบความสำเร็จและดียิ่งขึ้น
+                    รวมทั้งยังมีบริการบำรุงรักษาซอฟท์แวร์ต่างๆ วางโครงสร้างพื้นฐาน (Infrastructure) เช่น Server,
+                    Internet, Intranet และ Network System เป็นต้น
+                </dd>
+                <br>
+                <dd style="text-indent: 2.5em;">
+                    นอกจากนี้เรายังรับออกแบบกราฟฟิกดีไซน์ นำเสนอ Solution ทางธุรกิจ
+                    ปรับปรุงและพัฒนากระบวนการทำงานด้วยเทคโนโลยีต่าง ๆ เช่น Big Data, AI, Robotics, Embedded System และ
+                    IoT เป็นต้น
+                    เพื่อช่วยเหลือกระบวนการทำงานของภาคอุตสาหกรรมต่าง ๆ ให้มีความคล่องตัว ช่วยลดต้นทุน
+                    ช่วยลดระยะเวลาการทำงาน และพัฒนากระบวนการทำงานให้ดียิ่งขึ้น
+                </dd>
+            </div>
+            <div class="col-sm-5">
+                <img src="img/content/972.svg" alt="About Me">
+            </div>
+        </div>
+
+        <div></div>
+    </div>
+</section>
+<!-- /.ABOUT -->
 <!-- SERVICES STARTS
     ========================================================================= -->
 <section id="services">
@@ -505,69 +531,111 @@
             <div class="col-md-12 section-heading animated" style="text-align:center" data-animation="fadeInUp"
                  data-animation-delay="0">
                 <h2>OUR SERVICES</h2>
-                <h1>What We Do</h1>
+                <h1 class="kanit">บริการของเรา</h1>
                 <p class="line">&nbsp;</p>
             </div>
         </div>
         <div class="owl-carousel animated" data-animation="fadeInUp" data-animation-delay="200" id="our-services">
             <div class="item">
-                <div class="circle icon"><i class="fa fa-desktop"></i></div>
-                <div class="heading-1">Lorem ipsum</div>
-                <div class="heading-2">WEB DESIGN</div>
+                <div class="service-icon">
+                    <img src="img/content/001-code.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">WEBSITE</div>
+                <div class="heading-2 kanit">เว็บไซต์</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    พัฒนาเว็บไซต์ด้วยภาษา PHP โดยใช้เทคโนโลยี Framework ที่เป็นที่นิมยมอย่างมากเช่น Laravel, Cake PHP,
+                    Codeigniter เป็นต้น รวมทั้งยังมีเว็บไซค์ที่พัฒนาโดย
+                    Universal Javascript อีกด้วย โดยใช้เทคโนโลยี Library ต่าง ๆ เช่น React, HapiJS, ExpressJS
+                    เข้ามาพัฒนาเว็บไซต์สมัยใหม่ ซึ่งมีความยืดหยุ่นและ
+                    รวดเร็วมากขึ้น
                 </div>
             </div>
             <div class="item">
-                <div class="circle icon"><i class="fa fa-columns"></i></div>
-                <div class="heading-1">dolor sit</div>
-                <div class="heading-2">PRINT DESIGN</div>
+                <div class="service-icon">
+                    <img src="img/content/002-computer.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">DESKTOP APP</div>
+                <div class="heading-2 kanit">โปรแกรม Desktop</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    พัฒนาโปรแกรมสำหรับ PC ด้วยเทคโนโลยีต่าง ๆ เช่น C#, Java, Javascript และอื่นๆ อีกมากมาย
+                    เพื่อช่วยเหลือการทำงานแบบ Offline รวมถึงโปรแกรมที่ต้องการเชื่อมต่อกับฐานข้อมูลโดยตรง
+                    วางระบบภายในเพื่อบริหารจัดการข้อมูลต่าง ๆ
                 </div>
             </div>
             <div class="item">
-                <div class="circle icon"><i class="fa fa-dropbox"></i></div>
-                <div class="heading-1">consect</div>
-                <div class="heading-2">PACKAGING</div>
+                <div class="service-icon">
+                    <img src="img/content/004-smartphone.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">MOBILE APP</div>
+                <div class="heading-2 kanit">แอพพลิเคชั่นบนมือถือ</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    รับพัฒนาโมบายแอพพลิเคชันกับงานด้านการตลาด เช่น แอพขายของออนไลน์, Loyalty Program, ระบบงานขาย เป็นต้น
+                    ด้วยเภาษา Java, Javascript และเลือกใช้เทคโนโลยีหรือ Library ในการพัฒนาแอพพลิเคชั่นต่าง ๆ เช่น React
+                    Native เป็นต้น
                 </div>
             </div>
             <div class="item">
-                <div class="circle icon"><i class="fa fa-twitter"></i></div>
-                <div class="heading-1">tristique</div>
-                <div class="heading-2">SOCIAL MEDIA</div>
+                <div class="service-icon">
+                    <img src="img/content/007-cashier.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">POS</div>
+                <div class="heading-2 kanit">ระบบจัดการหน้าร้าน</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    POS คือ ระบบขายหน้าร้าน ชื่อเต็มของ POS คือ Point of sale ซึ่งหมายถึง จุดขายหรือจุดชำระเงิน
+                    ตรงแคชเชียร์ ที่เรามักเห็นตามห้างสรรพสินค้า ร้านค้ามินิมาร์ทต่างๆ
+                    ซึ่งนำหลักการของเครื่องคิดเงิน (Cash Register) มาเขียนโปรแกรมพัฒนาบนคอมพิวเตอร์
+                    แล้วเพิ่มเติมความสามารถต่างๆที่เครื่องเก็บเงินทำไม่ได้ เช่น สามารถตัดสต็อกได้
+                    ดูความเคลื่อนไหวต่างๆของสินค้า หรือ ระบบสมาชิก ตลอดจนดูข้อมูลผ่านอินเตอร์เน็ท
                 </div>
             </div>
             <div class="item">
-                <div class="circle icon"><i class="fa fa-pagelines"></i></div>
-                <div class="heading-1">Mauris</div>
-                <div class="heading-2">ILLUSTRATION</div>
+                <div class="service-icon">
+                    <img src="img/content/003-warehouse.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">WMS</div>
+                <div class="heading-2 kanit">ระบบจัดการคลังสินค้า</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    ระบบการจัดการข้อมูลทั้งหมดที่เกี่ยวกับตัวสินค้า หรือ วัตถุดิบที่ใช้ในกระบวนการผลิตสินค้า
+                    โดยอาศัยระบบ Barcode เข้ามาช่วยกำหนดตัวตนของสินค้า หรือวัตถุดิบแต่ละตัว
+                    และนำข้อมูลตัวสินค้าหรือวัตถุดิบบันทึกข้อมูลในระบบเพื่อนำข้อมูลดังกล่าวไปจัดการในรูปแบบต่างๆ
+                    ตามที่เราต้องการ โดยมีการกระทำอยู่ 3 กระบวนกหลัก คือ การรับสินค้า (Receiving) การจัดเก็บสินค้า
+                    (Storage) การส่งมอบสินค้า (Delivery)
                 </div>
             </div>
             <div class="item">
-                <div class="circle icon"><i class="fa fa-camera"></i></div>
-                <div class="heading-1">Mauris placerat</div>
-                <div class="heading-2">MULTIMEDIA</div>
+                <div class="service-icon">
+                    <img src="img/content/005-delivery-truck.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">TMS</div>
+                <div class="heading-2 kanit">ระบบจัดการขนส่ง</div>
                 <div class="smallline">&nbsp;</div>
-                <div class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper.
+                <div class="description sarabun">
+                    ระบบที่จะช่วยให้ บริษัทได้มีการบริหารจัดการ อย่างมีประสิทธิภาพ เชื่อถือได้
+                    และค่าใช้จ่ายได้อย่างมีประสิทธิภาพในการขนส่งสิน ค้า การขนส่งสินค้าจากต้นทางไปยังปลายทาง TMS
+                    ครอบคลุมโซลูชั่นสำหรับการย้ายการขนส่งสินค้าในทุกโหมด กระบวนการ TMS
+                    รวมถึงการขนส่งสินค้าขนส่งขาเข้าหรือขาออกในประเทศหรือต่างประเทศและการใช้สินทรัพย์และบุคคลากรของบริษัท
+                    ที่ขนส่งเอง
+                </div>
+            </div>
+            <div class="item">
+                <div class="service-icon">
+                    <img src="img/content/006-internet.svg" width="150" alt="Website" align="center">
+                </div>
+                <div class="heading-1">IoT</div>
+                <div class="heading-2 kanit">อินเตอร์เน็ตในทุกสิ่ง</div>
+                <div class="smallline">&nbsp;</div>
+                <div class="description sarabun">
+                    อุปกรณ์ต่างๆ สิ่งต่างๆ ที่ได้รับการพัฒนาเชื่อมโยงทุกสิ่งทุกอย่างสู่โลกอินเตอร์เน็ต
+                    ทำให้เราสามารถสั่งการควบคุมการใช้งานอุปกรณ์ต่างๆ ผ่านทางเครือข่ายอินเตอร์เน็ต เช่น การเปิด-ปิด
+                    อุปกรณ์เครื่องใช้ไฟฟ้า
+                    (การสั่งการเปิดไฟฟ้าภายในบ้านด้วยการเชื่อมต่ออุปกรณ์ควบคุม เช่น มือถือ ผ่านทางอินเตอร์เน็ต) รถยนต์
+                    โทรศัพท์มือถือ เครื่องมือสื่อสาร เครื่องมือทางการเกษตร อาคาร บ้านเรือน
+                    เครื่องใช้ในชีวิตประจำวันต่างๆ ผ่านเครือข่ายอินเตอร์เน็ต เป็นต้น
                 </div>
             </div>
         </div>
@@ -577,25 +645,25 @@
 <!-- /.SERVICES -->
 <!-- CLIENTS STARTS
     ========================================================================= -->
-<section id="clients">
-    <div class="clients">
-        <div class="items animated" data-animation="tada" data-animation-delay="0"><img src="http://placehold.it/175x50"
-                                                                                        class="center-block" alt="">
-        </div>
-        <div class="items animated" data-animation="tada" data-animation-delay="100"><img
-                src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items animated" data-animation="tada" data-animation-delay="200"><img
-                src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items animated" data-animation="tada" data-animation-delay="300"><img
-                src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items animated" data-animation="tada" data-animation-delay="400"><img
-                src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>
-        <div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>
-    </div>
-</section>
+<!--<section id="clients">-->
+    <!--<div class="clients">-->
+        <!--<div class="items animated" data-animation="tada" data-animation-delay="0"><img src="http://placehold.it/175x50"-->
+                                                                                        <!--class="center-block" alt="">-->
+        <!--</div>-->
+        <!--<div class="items animated" data-animation="tada" data-animation-delay="100"><img-->
+                <!--src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items animated" data-animation="tada" data-animation-delay="200"><img-->
+                <!--src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items animated" data-animation="tada" data-animation-delay="300"><img-->
+                <!--src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items animated" data-animation="tada" data-animation-delay="400"><img-->
+                <!--src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+        <!--<div class="items"><img src="http://placehold.it/175x50" class="center-block" alt=""></div>-->
+    <!--</div>-->
+<!--</section>-->
 <!-- /.CLIENTS -->
 <!-- CONTACT STARTS
     ========================================================================= -->
@@ -605,102 +673,42 @@
             <div class="col-md-12 section-heading animated" style="text-align:center" data-animation="fadeInUp"
                  data-animation-delay="0">
                 <h2>CONTACT US</h2>
-                <h1>Get in touch with us</h1>
+                <h1 class="kanit">ติดต่อเรา</h1>
                 <p class="line">&nbsp;</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="100">
-                <h3>Postal Address</h3>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
-                <div class="address"><i class="fa fa-map-marker"></i> PO Box 16122 Collins Street West, Victoria 8007
-                    Australia<br>
+                <h3 class="kanit">บริษัท ลาทเตซอฟท์ (ประเทศไทย) จำกัด</h3>
+                <p>LATTESOFT (THAILAND) COMPANY LIMITED.</p>
+
+                <div class="address sarabun">
+                    <i class="fa fa-map-marker"></i> 300/37 อาคาร LATTE HOUSE ซอยฉลองกรุง 2 ถนนฉลองกรุง<br> แขวงลำปลาทิว
+                    เขคลาดกระบัง กรุงเทพมหานคร 10520
                     <br>
-                    <i class="fa fa-phone"></i> +12 3 4567 8901<br>
-                    <i class="fa fa-print"></i> +12 3 4567 8901 <br>
                     <br>
-                    <i class="fa fa-envelope"></i> <a href="mailto:info@abcd.com">info@abcd.com</a><br>
-                    <i class="fa fa-globe"></i> <a href="#">www.abcd.com</a>
+                    <i class="fa fa-mobile"></i> 08-0535-6935<br>
+                    <i class="fa fa-phone"></i> 02-034-3423 <br>
+                    <br>
+                    <i class="fa fa-envelope"></i> <a href="mailto:info@abcd.com">info@lattesoft.co.th</a><br>
+                    <i class="fa fa-globe"></i> <a href="https://www.lattesoft.co">www.lattesoft.co</a><br>
+                    <i class="fa fa-facebook"></i> <a href="https://fb.com/lattesoftth">@lattesoftth</a>
                 </div>
             </div>
             <div class="col-lg-6 form-element animated" data-animation="fadeInUp" data-animation-delay="300">
-                <h3>Feel Free to Drop Us a Line</h3>
-                <p>Tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
-                    Mauris placerat eleifend leo. </p>
-                <div class="form">
-                    <form action='process.php' method='post' name='ContactForm' id='ContactForm'>
-                        <div id='message_post'></div>
-                        <div class="input-group"><span class="input-group-addon">@</span>
-                            <input type="text" name="name" class="form-control" placeholder="Name *">
-                        </div>
-                        <div class="input-group"><span class="input-group-addon">@</span>
-                            <input type="text" name="email" class="form-control" placeholder="Email *">
-                        </div>
-                        <div class="input-group"><span class="input-group-addon">@</span>
-                            <input type="text" name="website" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="input-group"><span class="input-group-addon">@</span>
-                            <textarea name="comment" class="form-control" rows="3" placeholder="Comment *"></textarea>
-                        </div>
-                        <div class="input-group form-buttons"> <span class="input-group-btn">
-									<button class="btn btn-default" type='submit' value='Submit' name='submitf'
-                                            id="submitf" style="width:120px;height:40px;"><i class="fa fa-envelope"></i> SEND</button>
-									</span>
-                        </div>
-                    </form>
-                </div>
+                <div id="map"></div>
             </div>
         </div>
     </div>
 </section>
 <!-- /.CONTACT -->
-<!-- SOCIAL MEDIA STARTS
-    ========================================================================= -->
-<section id="social-media" data-speed="20" data-type="background">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading animated" style="text-align:center" data-animation="fadeInUp"
-                 data-animation-delay="0">
-                <h2>SOCIAL MEDIA</h2>
-                <h1>GET IN TOUCH WITH UPDATES</h1>
-                <p class="line">&nbsp;</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 animated" data-animation="fadeInUp" data-animation-delay="200">
-                <div class="desc">Tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
-                    mi vitae est. Mauris placerat eleifend leo.
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <ul>
-                    <li class="animated" data-animation="fadeInUp" data-animation-delay="400"><a href="#"><i
-                            class="fa fa-facebook"></i></a></li>
-                    <li class="animated" data-animation="fadeInUp" data-animation-delay="500"><a href="#"><i
-                            class="fa fa-twitter"></i></a></li>
-                    <li class="animated" data-animation="fadeInUp" data-animation-delay="600"><a href="#"><i
-                            class="fa fa-pinterest"></i></a></li>
-                    <li class="animated" data-animation="fadeInUp" data-animation-delay="700"><a href="#"><i
-                            class="fa fa-linkedin"></i></a></li>
-                    <li class="animated" data-animation="fadeInUp" data-animation-delay="800"><a href="#"><i
-                            class="fa fa-google-plus"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /.SOCIAL MEDIA -->
 <!-- FOOTER STARTS
     ========================================================================= -->
 <section id="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
-                <div class="desc"><i class="fa fa-heart"></i><br>© 2017. THIS ONE.<br>Tempor sit amet, ante. Donec eu
-                    libero sit amet quam egestas semper.
+                <div class="desc"><i class="fa fa-heart"></i><br>© 2019. LATTESOFT (THAILAND) COMPANY LIMITED.
                 </div>
                 <div class="line"></div>
                 <a href="#" class="scrollup"><i class="fa fa-angle-double-up"></i></a>
@@ -738,13 +746,40 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 13.7369445, lng: 100.79384900000002},
+            zoom: 16
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+        var service = new google.maps.places.PlacesService(map);
+
+        service.getDetails({
+            placeId: 'ChIJ9x6yszpmHTERXYRmFz2MEsk'
+        }, function (place, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: place.geometry.location
+                });
+                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                    place.formatted_address + '</div>');
+                infowindow.open(map, marker);
+            }
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChl_d4s5WwjOhUOTEd3aOLc76Ejh2DEUM&libraries=places&callback=initMap&language=th&region=TH"
+        async defer></script>
 <script type="text/javascript">
     var tpj = jQuery;
     var revapi4;
     var bgNumber = [];
     var randomBgNumber = function () {
         var min = Math.ceil(1);
-        var max = Math.floor(8);
+        var max = Math.floor(6);
         var rd = Math.floor(Math.random() * (max - min + 1)) + min;
         if (bgNumber.indexOf(rd) > -1) {
             return randomBgNumber();

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="512pt" version="1.1" viewBox="0 -34 512 511" width="512pt">
+<g id="surface1">
+<path d="M 452 75.5 L 482 75.5 L 482 218.5 L 452 218.5 Z M 452 75.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(5.490196%,65.098039%,12.54902%);fill-opacity:1;" />
+<path d="M 406 233.5 L 276 233.5 L 276 123.5 L 406 123.5 Z M 406 233.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(52.941176%,90.196078%,58.039216%);fill-opacity:1;" />
+<path d="M 482 303.5 L 276 303.5 L 276 203.5 L 482 203.5 Z M 482 303.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(22.352941%,76.862745%,32.54902%);fill-opacity:1;" />
+<path d="M 233 303.5 L 27 303.5 L 27 238.5 C 27 197.144531 60.644531 163.5 102 163.5 L 158 163.5 C 199.355469 163.5 233 197.144531 233 238.5 Z M 233 303.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,31.764706%,36.862745%);fill-opacity:1;" />
+<path d="M 158 163.5 L 130 163.5 L 130 303.5 L 233 303.5 L 233 238.5 C 233 197.144531 199.355469 163.5 158 163.5 Z M 158 163.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(94.117647%,18.823529%,24.313725%);fill-opacity:1;" />
+<path d="M 180 90.5 L 80 90.5 L 80 0.5 L 180 0.5 Z M 180 90.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,31.764706%,36.862745%);fill-opacity:1;" />
+<path d="M 180 90.5 L 130 90.5 L 130 0.5 L 180 0.5 Z M 180 90.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(94.117647%,18.823529%,24.313725%);fill-opacity:1;" />
+<path d="M 512 443.5 L 0 443.5 L 0 273.5 L 512 273.5 Z M 512 443.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(41.176471%,83.529412%,100%);fill-opacity:1;" />
+<path d="M 130 193.5 C 91.402344 193.5 60 162.097656 60 123.5 C 60 84.902344 91.402344 53.5 130 53.5 C 168.597656 53.5 200 84.902344 200 123.5 C 200 162.097656 168.597656 193.5 130 193.5 Z M 130 193.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(99.215686%,81.960784%,63.921569%);fill-opacity:1;" />
+<path d="M 482 90.5 L 409.785156 90.5 L 364.785156 45.5 L 409.785156 0.5 L 482 0.5 Z M 482 90.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(22.352941%,76.862745%,32.54902%);fill-opacity:1;" />
+<path d="M 130 53.5 L 130 193.5 C 168.597656 193.5 200 162.097656 200 123.5 C 200 84.902344 168.597656 53.5 130 53.5 Z M 130 53.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,73.333333%,52.156863%);fill-opacity:1;" />
+<path d="M 512 443.5 L 256 443.5 L 256 273.5 L 512 273.5 Z M 512 443.5 " style=" stroke:none;fill-rule:nonzero;fill:rgb(7.45098%,72.156863%,100%);fill-opacity:1;" />
+</g>
+</svg>
