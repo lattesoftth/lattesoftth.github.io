@@ -1678,7 +1678,7 @@ section#clients {
 /* ------------------------------------------------------------------------------------------ Social Media Section Starts */
 
 #social-media {
-    color: #fff;
+    color: #191919;
 }
 #social-media {
     background-attachment: fixed;
@@ -1687,12 +1687,12 @@ section#clients {
     background-position: 50% 0;
 }
 #social-media h2 {
-    color: #FFF;
+    color: #191919;
 }
 #social-media .line {
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-bottom-color: #fff;
+    border-bottom-color: #191919;
     margin-bottom: 30px;
     width: 100px;
     margin-left: auto;
@@ -1740,7 +1740,7 @@ section#clients {
     filter: alpha(opacity=50);
 }
 #social-media ul li a {
-    color: #000;
+    color: #191919;
 }
 #social-media ul li a:hover {
     color: #666;
