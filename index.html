@@ -40,6 +40,9 @@
             height: 300px;
             width: 100%;
         }
+        .modal,.modal-dialog{
+            z-index: 999999;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +51,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4eQE3hvWyq9Y3HJYgewS7GHzxDNaM6wpMot3_jAo8lBZGNQ/viewform?embedded=true" width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">กำลังโหลด...</iframe>
             </div>
         </div>
@@ -409,11 +413,10 @@
                     <li><a href="#projects" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">PROJECTS</a>
                     </li>
-                    <li><a href="#about" class="js-scroll-trigger" data-toggle="collapse"
-                           data-target=".navbar-collapse">ABOUT</a></li>
-
                     <li><a href="#services" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">SERVICES</a></li>
+                    <li><a href="#about" class="js-scroll-trigger" data-toggle="collapse"
+                           data-target=".navbar-collapse">ABOUT</a></li>
                     <li><a href="#contact" class="js-scroll-trigger" data-toggle="collapse"
                            data-target=".navbar-collapse">CONTACT</a></li>
 
@@ -485,44 +488,6 @@
     </div>
 </section>
 <!-- /.ABOUT BLOCK 2 -->
-<!-- ABOUT US STARTS
-    ========================================================================= -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading animated" data-animation="fadeInRight" data-animation-delay="0">
-                <h2>SOFTWARE / <span class="colored-text">RESEARCH</span> / DEVELOPMENT</h2>
-                <h1 class="kanit">เราคือผู้วิจัยและพัฒนาซอฟท์แวร์</h1>
-                <p class="line">&nbsp;</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-7 sarabun" style="font-size: 1.4em; line-height: 1.5em;">
-                <dd style="text-indent: 2.5em;">เราคือบริษัทที่วิจัยและพัฒนาซอฟท์แวร์สำหรับธุรกิจ เว็บไซต์
-                    และแอปพลิเคชันบนโทรศัพท์มือถือ ให้กับองค์กรต่างๆ ทั้งหน่วยงานราชการและเอกชน เช่น ERP, TMS, WMS และ
-                    POS เป็นต้น
-                    เพื่อเพิ่มประสิทธิภาพการทำงานของท่านให้ประสบความสำเร็จและดียิ่งขึ้น
-                    รวมทั้งยังมีบริการบำรุงรักษาซอฟท์แวร์ต่างๆ วางโครงสร้างพื้นฐาน (Infrastructure) เช่น Server,
-                    Internet, Intranet และ Network System เป็นต้น
-                </dd>
-                <br>
-                <dd style="text-indent: 2.5em;">
-                    นอกจากนี้เรายังรับออกแบบกราฟฟิกดีไซน์ นำเสนอ Solution ทางธุรกิจ
-                    ปรับปรุงและพัฒนากระบวนการทำงานด้วยเทคโนโลยีต่าง ๆ เช่น Big Data, AI, Robotics, Embedded System และ
-                    IoT เป็นต้น
-                    เพื่อช่วยเหลือกระบวนการทำงานของภาคอุตสาหกรรมต่าง ๆ ให้มีความคล่องตัว ช่วยลดต้นทุน
-                    ช่วยลดระยะเวลาการทำงาน และพัฒนากระบวนการทำงานให้ดียิ่งขึ้น
-                </dd>
-            </div>
-            <div class="col-sm-5">
-                <img src="img/content/972.svg" alt="About Me">
-            </div>
-        </div>
-
-        <div></div>
-    </div>
-</section>
-<!-- /.ABOUT -->
 <!-- SERVICES STARTS
     ========================================================================= -->
 <section id="services">
@@ -643,6 +608,44 @@
     </div>
 </section>
 <!-- /.SERVICES -->
+<!-- ABOUT US STARTS
+    ========================================================================= -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading animated" data-animation="fadeInRight" data-animation-delay="0">
+                <h2>SOFTWARE / <span class="colored-text">RESEARCH</span> / DEVELOPMENT</h2>
+                <h1 class="kanit">เราคือผู้วิจัยและพัฒนาซอฟท์แวร์</h1>
+                <p class="line">&nbsp;</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 sarabun" style="font-size: 1.4em; line-height: 1.5em;">
+                <dd style="text-indent: 2.5em;">เราคือบริษัทที่วิจัยและพัฒนาซอฟท์แวร์สำหรับธุรกิจ เว็บไซต์
+                    และแอปพลิเคชันบนโทรศัพท์มือถือ ให้กับองค์กรต่างๆ ทั้งหน่วยงานราชการและเอกชน เช่น ERP, TMS, WMS และ
+                    POS เป็นต้น
+                    เพื่อเพิ่มประสิทธิภาพการทำงานของท่านให้ประสบความสำเร็จและดียิ่งขึ้น
+                    รวมทั้งยังมีบริการบำรุงรักษาซอฟท์แวร์ต่างๆ วางโครงสร้างพื้นฐาน (Infrastructure) เช่น Server,
+                    Internet, Intranet และ Network System เป็นต้น
+                </dd>
+                <br>
+                <dd style="text-indent: 2.5em;">
+                    นอกจากนี้เรายังรับออกแบบกราฟฟิกดีไซน์ นำเสนอ Solution ทางธุรกิจ
+                    ปรับปรุงและพัฒนากระบวนการทำงานด้วยเทคโนโลยีต่าง ๆ เช่น Big Data, AI, Robotics, Embedded System และ
+                    IoT เป็นต้น
+                    เพื่อช่วยเหลือกระบวนการทำงานของภาคอุตสาหกรรมต่าง ๆ ให้มีความคล่องตัว ช่วยลดต้นทุน
+                    ช่วยลดระยะเวลาการทำงาน และพัฒนากระบวนการทำงานให้ดียิ่งขึ้น
+                </dd>
+            </div>
+            <div class="col-sm-5">
+                <img src="img/content/972.svg" alt="About Me">
+            </div>
+        </div>
+
+        <div></div>
+    </div>
+</section>
+<!-- /.ABOUT -->
 <!-- CLIENTS STARTS
     ========================================================================= -->
 <!--<section id="clients">-->
