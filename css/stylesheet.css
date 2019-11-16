@@ -2323,7 +2323,7 @@ section#footer {
 /* Social Icons */
 #social_side_links {
   position: fixed;
-  bottom: 40%;
+  bottom: 80px;
   right: 0;
   padding: 0;
   list-style: none;
