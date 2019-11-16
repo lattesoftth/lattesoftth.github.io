@@ -2,7 +2,7 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans|Roboto:300,400,500,700');
 @import url("bootstrap/bootstrap.min.css");
-@import url("stylesheet.css");
+@import url("stylesheet.css?v=2");
 @import url("hide-show.css");
 @import url("animations/animate.min.css");
 @import url("../js/lightbox/ekko-lightbox.css");
