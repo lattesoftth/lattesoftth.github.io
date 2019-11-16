@@ -2319,3 +2319,29 @@ section#footer {
     align-self: center;
     margin-bottom: 2em;
 }
+
+/* Social Icons */
+#social_side_links {
+  position: fixed;
+  bottom: 40%;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 9999;
+}
+
+#social_side_links li a {display: block;}
+
+#social_side_links li a i {
+	display: block;
+	max-width:40px;
+    padding: 10px;
+    font-size: 1.5em;
+    -webkit-transition:  background .2s ease-in-out;
+    -moz-transition:  background .2s ease-in-out;
+    -o-transition:  background .2s ease-in-out;
+    transition:  background .2s ease-in-out;
+}
+
+#social_side_links li a:hover i {background: rgba(0, 0, 0, .2);}
+
